@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html xml:lang="en" lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>ContactPage</title>
+        <link href="../images/favicon.ico" rel="icon">
+    </head>
+
+    <body>
+        <header>
+            <h1>Contact Me</h1>
+        
+            <hr>
+        
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="education.html">Education</a>
+                    </li>
+                    <li>
+                        <a href="experience.html">Experience</a>
+                    </li>
+                    <li>
+                        <a href="aboutme.html">About Me</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="testing.html">Testing</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <hr>
+        
+        </header>
+
+        <form>
+            <fieldset>
+                <legend>Contact Submission</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="query">What would you like to tell me?</label> <br><br>
+                <textarea id="query" name="query" rows="4" cols="50"></textarea><br><br>
+
+                <label for="myBrowser">What browser are you currently using to access this site?</label>
+                <select name="browser" id="myBrowser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">FireFox</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Microsoft Edge</option>
+                    <option value="other">Other</option>
+                </select> <br><br>
+
+                <label for="myLocation">Which of these cities do you prefer to live in?</label>
+                <select name="location" id="myLocation">
+                    <optgroup label="USA">
+                        <option value="losangeles">Los Angeles</option>
+                        <option value="newyork">New York</option>
+                    </optgroup>
+                    
+                    <optgroup label="China">
+                        <option value="shanghai">Shanghai</option>
+                        <option value="beijing">Beijing</option>
+
+                    <optgroup label="Europe">
+                        <option value="london">London</option>
+                        <option value="paris">Paris</option>
+
+                    <optgroup label="Japan">
+                        <option value="tokyo">Tokyo</option>
+                        <option value="kyoto">Kyoto</option>
+                    </optgroup>
+                </select> <br><br>
+
+                <label for="myFind">How did you find out about me?</label>
+                <input list="howFind" id="myFind" name ="myFind">
+                <datalist id="howFind">
+                    <option value="Friends"></option>
+                    <option value="Twitter"></option>
+                    <option value="Github"></option>
+                    <option value="Instagram"></option>
+                    <option value="Google Search"></option>
+                </datalist> <br><br>
+
+                <input type="submit" value="Submit">
+            </fieldset>
+
+        </form>
+
+        <br><br>
+
+        <form action="https://github.com/" method="get">
+            <button>Github</button>
+        </form>
+
+        <form action="https://twitter.com/home/" method="get">
+            <button>Twitter</button>
+        </form>
+
+        <form action="https://linkedin.com/" method="get">
+            <button>Linkedin</button>
+        </form>
+
+    </body>
+</html>
